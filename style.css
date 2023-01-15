@@ -1,0 +1,204 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Poppins:wght@300;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: #ffffff;
+    background-color: rgb(201, 73, 35);
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+#heading {
+    background-color: #ffffff ;
+    height: 20vh;
+}
+header img{
+    padding: 15px;
+    margin: 15px;
+    zoom: 1.2;
+    border-radius: 15px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10pxs;
+}
+header nav {
+    display: flex;
+    gap: 50px;
+    padding-right:  10px;
+}
+header nav a {
+    color: rgb(201, 73, 35);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    transition: color 0.3s, text-shadow 0.5s;
+}
+header nav a:hover {
+    color: rgb(255, 64, 0);
+    text-shadow: 5px 5px 10px rgb(201, 73, 35);
+    transition: all 0.5s;
+}
+
+/* HOME SECTION */
+#home {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+#kale4 {
+    display: flex;
+    width: 600px;
+    height: 420px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    gap: 100px;
+    align-self: flex-end;
+}
+.home-text {
+    text-align: center;
+}
+.home-text h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    align-self: flex-start;
+}
+.home-text p {
+    align-self: flex-start;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.home-text p span {
+    border-bottom: 3px solid rgb(114, 41, 41);
+}
+.home-text p i {
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(114, 41, 41);
+}
+
+/* ABOUT SECTION */
+#about {
+    background-image: url(/images/al2.jpg);
+    background-size: 90vh;
+    background-origin:border-box;
+    background-position-x:left;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    text-align:justify;
+    justify-content: space-between;
+    align-items:stretch;
+    padding: 10px;
+    margin: 10px auto;
+    gap: 35px;
+}
+section div a{
+    color: rgb(0, 0, 0);
+    transition: color 0.5s, text-shadow 0.5s;
+    font-weight: 600;
+}
+section div a:hover{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+#info{
+    padding: 1px;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;    
+}
+#info h3{
+    font-size: 25px;
+    text-decoration: underline #ffffff;
+}
+
+/* OPINIONS SECTION */
+#opinion{
+    background-image: url(/images/kitap2.jpg);
+    background-position: right;
+    background-repeat:round calc(220vh * 100%);
+    background-size: 220vh;
+    background-origin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    padding: 10px;
+    margin:10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(114, 41, 41);
+    border: solid rgba(114, 41, 41, 0.37);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.box:hover{
+    color: #ffffff;
+    background-color: rgb(114, 41, 41) ;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    text-shadow: 5px 5px 10px, rgb(201, 73, 35);
+    transition: all 0.7s;
+}
+.cards{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.card{
+    background-color: rgba(114, 41, 41, 0.8);
+    width: 450px;
+    margin-top: 230px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+    padding: 10px;
+}
+.card img{
+    width: 100px;
+    border-radius: 250px;
+    border-style:outset;
+}
+.card:nth-child(2), :nth-child(4){
+    margin-bottom: 250px;
+    align-self: baseline;
+}
+.user{
+    margin-bottom: 5px;
+}
+.user-info{
+    font-style: oblique;
+    text-decoration: underline;
+}
+.comment{
+    font-size: smaller;
+}
+
